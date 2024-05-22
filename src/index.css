@@ -1,0 +1,21 @@
+:root {
+  --primary-accent-color: #F08080
+  --primary-bg-color: #E6E6FA; /* Light Lavender */
+  --secondary-bg-color: #ADD8E6; /* Pale Blue */
+  --tertiary-bg-color: #98FF98; /* Light Mint */
+  --primary-fg-color: #2F4F4F; /* Dark Slate Gray */
+}
+body {
+  background-color: var(--primary-accent-color);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

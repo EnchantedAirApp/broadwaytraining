@@ -1,0 +1,109 @@
+:root {
+    --primary-bg-color: #E6E6FA; /* Light Lavender */
+    --secondary-bg-color: #ADD8E6; /* Pale Blue */
+    --tertiary-bg-color: #98FF98; /* Light Mint */
+    --primary-fg-color: #2F4F4F; /* Dark Slate Gray */
+  }
+.verse-card {
+    background-color:var(--tertiary-bg-color); /* Light purple-blue background */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 90%;
+    width: auto;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+  }
+  .verse-card h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333366; /* Darker blue text */
+  }
+  
+  .verse-card p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #55557f; /* Medium blue text */
+  }
+  
+  .verse-card p strong {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #222244; /* Dark blue text */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1200px) {
+    .verse-card {
+      padding: 25px;
+    }
+    .verse-card h2 {
+      font-size: 1.6em;
+    }
+    .verse-card p {
+      font-size: 1.1em;
+    }
+    .verse-card p strong {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .verse-card {
+      padding: 20px;
+    }
+    .verse-card h2 {
+      font-size: 1.4em;
+    }
+    .verse-card p {
+      font-size: 1em;
+    }
+    .verse-card p strong {
+      font-size: 0.95em;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .verse-card {
+      padding: 15px;
+    }
+    .verse-card h2 {
+      font-size: 1.2em;
+    }
+    .verse-card p {
+      font-size: 0.9em;
+    }
+    .verse-card p strong {
+      font-size: 0.85em;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .verse-card {
+      padding: 10px;
+    }
+    .verse-card h2 {
+      font-size: 1em;
+    }
+    .verse-card p {
+      font-size: 0.8em;
+    }
+    .verse-card p strong {
+      font-size: 0.75em;
+    }
+  }
+  
